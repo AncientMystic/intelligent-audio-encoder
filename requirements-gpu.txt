@@ -1,0 +1,7 @@
+# Optional GPU analysis acceleration
+# CUDA path (RTX 2060 12GB): torch with cu121/cu124
+# DirectML path (Arc A310 + any): onnxruntime-directml
+-r requirements.txt
+torch>=2.2 --index-url https://download.pytorch.org/whl/cu121
+torchcodec>=0.14
+onnxruntime-directml>=1.17

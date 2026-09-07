@@ -1,0 +1,5 @@
+{
+  "backend": "cuda",
+  "index": 0,
+  "name": "GRID RTX6000-12Q"
+}
